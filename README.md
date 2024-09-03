@@ -34,4 +34,4 @@ The general idea will be to initially have fewer plug-in methods and introduce n
 
 This will allow the semantic kernel planner to make different choices on how to call the plug-in methods for each lab.
 
-[Lab 01 basic lights demo](./Lab-01/readme.md)
+[Lab 01 - basic light control](./Labs/Lab-01/readme.md)
