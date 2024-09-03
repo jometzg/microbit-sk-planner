@@ -113,7 +113,6 @@ Light turned on!
 
 Assistant > The letter "M" is now successfully displayed on the matrix with the necessary brightness levels. Here is how it looks:
 
-```
 9  .  .  .  9
 9  9  .  9  9
 9  .  9  .  9
