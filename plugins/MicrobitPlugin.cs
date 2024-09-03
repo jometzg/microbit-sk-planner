@@ -13,8 +13,6 @@ public class MicrobitPlugin
     {
         serialPort = new SerialPort("COM3", 115200);
         serialPort.Open();
-        //SendCommand(serialPort, "print('Hello, world!')");
-        //serialPort.Close();
     }
 
     [KernelFunction("set_microbit_light_brightness")]
