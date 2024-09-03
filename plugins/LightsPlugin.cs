@@ -34,8 +34,6 @@ public class LightsPlugin
         int columnid
     )
     {
-        // Add logic to send an email using the recipientEmails, subject, and body
-        // For now, we'll just print out a success message to the console
         var brightness = _lights[rowid, columnid].Brightness;
         Console.WriteLine(brightness);
         return brightness;
@@ -50,8 +48,6 @@ public class LightsPlugin
         int brightness
     )
     {
-        // Add logic to send an email using the recipientEmails, subject, and body
-        // For now, we'll just print out a success message to the console
         _lights[rowid, columnid].Brightness = brightness;
         Console.WriteLine("Brightness set!");
     }
@@ -64,8 +60,6 @@ public class LightsPlugin
         int columnid
     )
     {
-        // Add logic to send an email using the recipientEmails, subject, and body
-        // For now, we'll just print out a success message to the console
         _lights[rowid, columnid].IsOn = true;
         Console.WriteLine("Light turned on!");
     }
@@ -78,8 +72,6 @@ public class LightsPlugin
         int columnid
     )
     {
-        // Add logic to send an email using the recipientEmails, subject, and body
-        // For now, we'll just print out a success message to the console
         var isOn = _lights[rowid, columnid].IsOn;
         Console.WriteLine(isOn);
         return isOn;
