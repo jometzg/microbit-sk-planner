@@ -178,3 +178,7 @@ public void SetLightBrightness(
 ```
 With this pair of methods, you can set any pixel value and display the matrix of values.
 
+# Summary
+We have a simple planner that controls some virtual lights, but there is more that can be done with this simple arrangement. 
+
+See next lab!
