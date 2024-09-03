@@ -33,3 +33,5 @@ here are some potential lab ideas that will be fleshed out later:
 The general idea will be to initially have fewer plug-in methods and introduce new ones as needed for new use cases that may be difficult or not possible with fewer plugin methods. 
 
 This will allow the semantic kernel planner to make different choices on how to call the plug-in methods for each lab.
+
+[Lab 01 basic lights demo](./Lab-01/readme.md)
