@@ -37,6 +37,22 @@ This then opens up the possibility to do even more interesting things. Some thin
 3. Ask it to draw a circle
 4. How about a symbol or a letter?
 
+```
+User > draw a circle and show it
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+ .  .  .  .  . 
+ .  .  5  .  .
+ .  5  .  5  .
+ .  .  5  .  .
+ .  .  .  .  .
+
+Assistant > The circle has been drawn and displayed on the matrix.
+User >
+```
+
 ## Troubleshooting
 In this lab, the semantic kernel planner may call the LLM multiple times. If your rate limit for your model deployment is too low, then this may cause the model to return errors (too busy or 429s). If this is the case, then increase the token limit for the model.
 
