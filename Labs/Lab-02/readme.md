@@ -21,3 +21,35 @@ Some hints:
 1. the method to set the value of a pixel has most of what is needed to get the value
 2. is on an off really necessary? Would brightness just do?
 3. clearing the display has some of the characteristics of either the orginal initialisation of the lights or the display method
+
+## Some More Thoughts
+So far we have been looking at the plugin having methods for doing what you want to each of the lights in the matrix.
+
+Semantic kernel planners can do a little more.
+
+Some further experiments to try:
+1. Comment out the pixel on and off methods and ask to turn a pixel on or off? What happens?
+2. What about commenting out the clear the whole display method from above? Can you ask the display to be cleared still? And what happens?
+
+This then opens up the possibility to do even more interesting things. Some things to try:
+1. Ask it to draw line giving its start and end positions
+2. Ask it to draw a vertical or horizontal line
+3. Ask it to draw a circle
+4. How about a symbol or a letter?
+
+## Troubleshooting
+In this lab, the semantic kernel planner may call the LLM multiple times. If your rate limit for your model deployment is too low, then this may cause the model to return errors (too busy or 429s). If this is the case, then increase the token limit for the model.
+
+Remember, you can get more debug with:
+```
+builder.Services.AddLogging(c => 
+{
+    c.AddConsole();
+    c.SetMinimumLevel(LogLevel.Trace);
+});
+```
+
+# Summary
+Even with minimal methods on the plugin, the semantic kernel planner can do more complicated things.
+
+Next up the Micro:bit.
