@@ -5,7 +5,7 @@ This lab extends the previous lab, so you can decide whether to run it from here
 All this lab does is a little more with the lights!
 
 ## Prerequisites
-1.Lab-01 prerequities
+1. Lab-01 prerequities
 2. A working lab-01 preferably
 
 ## In this lab
