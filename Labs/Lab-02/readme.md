@@ -50,7 +50,22 @@ Brightness set!
  .  .  .  .  .
 
 Assistant > The circle has been drawn and displayed on the matrix.
-User >
+User > make the circle bigger
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+ .  .  5  .  . 
+ .  5  5  5  .
+ 5  5  .  5  5
+ .  5  5  5  .
+ .  .  5  .  .
+
+Assistant > The circle has been enlarged and is now displayed on the matrix.
 ```
 
 ## Troubleshooting
@@ -66,6 +81,7 @@ builder.Services.AddLogging(c =>
 ```
 
 # Summary
-Even with minimal methods on the plugin, the semantic kernel planner can do more complicated things.
+Even with minimal methods on the plugin, the semantic kernel planner can do more complicated things. How well it does them all depends on how the original prompt is setup and how you ask. So some experimentation can yield better results.
+
 
 Next up the Micro:bit.
