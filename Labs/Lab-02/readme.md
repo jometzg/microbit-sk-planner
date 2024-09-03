@@ -22,7 +22,7 @@ Some hints:
 2. is on an off really necessary? Would brightness just do?
 3. clearing the display has some of the characteristics of either the orginal initialisation of the lights or the display method
 
-## Some More Thoughts
+## Some More Experiments
 So far we have been looking at the plugin having methods for doing what you want to each of the lights in the matrix.
 
 Semantic kernel planners can do a little more.
