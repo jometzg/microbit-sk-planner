@@ -3,6 +3,8 @@ This lab will use a Micro:bit as an example of a less than virtual device that c
 
 The Micro:bit has a 5x5 matrix of LEDs - which is why the lights labs have this representation.
 
+![alt text](./images/microbit.png "Microbit device")
+
 ## Prerequisites
 1. As previous labs
 2. A Microbit plugged in the the USB of the your laptop/PC
