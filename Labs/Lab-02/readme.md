@@ -66,6 +66,31 @@ Brightness set!
  .  .  5  .  .
 
 Assistant > The circle has been enlarged and is now displayed on the matrix.
+User > clear the display and then draw a vertical line on the right side of the display
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+Brightness set!
+ .  .  .  .  9 
+ .  .  .  .  9
+ .  .  .  .  9
+ .  .  .  .  9
+ .  .  .  .  9
+
+Assistant > The display has been cleared and a vertical line has been drawn on the right side of the matrix.
 ```
 
 ## Troubleshooting
