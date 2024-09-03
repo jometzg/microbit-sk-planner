@@ -91,6 +91,34 @@ Brightness set!
  .  .  .  .  9
 
 Assistant > The display has been cleared and a vertical line has been drawn on the right side of the matrix.
+User > draw the letter M on the display
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+Light turned on!
+ 9  .  .  .  9 
+ 9  9  .  9  9
+ 9  .  9  .  9
+ 9  .  .  .  9
+ 9  .  .  .  9
+
+Assistant > The letter "M" is now successfully displayed on the matrix with the necessary brightness levels. Here is how it looks:
+
+```
+9  .  .  .  9
+9  9  .  9  9
+9  .  9  .  9
+9  .  .  .  9
+9  .  .  .  9
 ```
 
 ## Troubleshooting
