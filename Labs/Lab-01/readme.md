@@ -82,7 +82,7 @@ Assistant > Here's the updated display with the light at position (0, 1) set to 
  .  .  .  .  .
  .  .  .  .  .
  .  .  .  .  .
-```
+
 User >
 ```
 As can be seen, the app can draw the lights when asked and set the value of a single light.
