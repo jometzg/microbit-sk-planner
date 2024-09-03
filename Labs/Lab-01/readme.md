@@ -59,14 +59,12 @@ User > show the lights
  .  .  .  .  .
 
 Assistant > Currently, all the lights are off. Here's the display:
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
 
-```
- .  .  .  .  .
- .  .  .  .  .
- .  .  .  .  .
- .  .  .  .  .
- .  .  .  .  .
-```
 Each dot represents a light that is turned off.
 User > set light 0, 1 to 5
 Brightness set!
@@ -79,8 +77,6 @@ User > show the lights
  .  .  .  .  .
 
 Assistant > Here's the updated display with the light at position (0, 1) set to a brightness of 5:
-
-```
  .  5  .  .  .
  .  .  .  .  .
  .  .  .  .  .
