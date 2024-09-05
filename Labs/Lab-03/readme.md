@@ -11,4 +11,22 @@ The Micro:bit has a 5x5 matrix of LEDs - which is why the lights labs have this 
 
 Hopefully some of the proctors can bring along a collection of these.
 
+## Connecting to the Microbit
+The Microbit presents itself as a serial port device to your PC. Which port can be found out from device manager, but it is often *COM3*.
+
+The plugin opens a connection to a COM port on initialisation, so this should error if the Microbit is not plugged-in or presents itself on a different COM port. The code that may need amending is in the MicrobitPlugin.cs
+
+```
+public MicrobitPlugin()
+{
+    serialPort = new SerialPort("COM3", 115200);
+    serialPort.Open();
+    //send crt-c to stop any running program
+    serialPort.Write(new byte[] { 0x03 }, 0, 1);
+}
+```
+
+Amend the call to the serial port constructor, if you have issues.
+
+
 
