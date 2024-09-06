@@ -28,5 +28,15 @@ public MicrobitPlugin()
 
 Amend the call to the serial port constructor, if you have issues.
 
+## In this lab
+The format of the LEDs on the Microbit is the same as that of the virtual lights in earlier labs, so you could try some of those experiments, but with something like *on the microbit* somewhere on the prompt.
 
+You can try:
+1. Turn on individual pixels
+2. change the brightness of one pixel from it's current
+3. Copy the state of the virtual lights to the microbit
+4. Shapes on the Microbit
+5. Letters on the microbit
+
+## Further Experiments
 
