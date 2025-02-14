@@ -32,7 +32,7 @@ public class MicrobitPlugin
 
     [KernelFunction("set_microbit_command")]
     [Description("send a command to the microbit using REPL.")]
-    public void SetLightBrightness(
+    public void SendGenericCommand(
         Kernel kernel,
         string command
     )
